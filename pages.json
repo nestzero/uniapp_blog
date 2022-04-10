@@ -1,0 +1,117 @@
+{
+    "pages": [
+        {
+            "path": "pages/home/home",
+            "style": {
+                "navigationBarTitleText": "首页",
+                "enablePullDownRefresh": false
+            }
+        },
+        {
+            "path": "pages/hot/hot",
+            "style": {
+                "navigationBarTitleText": "热门",
+                "enablePullDownRefresh": false
+            }
+        },
+        {
+            "path": "pages/my/my",
+            "style": {
+                "navigationBarTitleText": "我的",
+                "enablePullDownRefresh": false
+            }
+        }
+        ,{
+            "path" : "components/content/search/SearchList",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "components/content/search/SearchHistory",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "components/content/search/SearchResult",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "components/content/search/SearchResultTheme",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "components/content/search/SearchResultEmpty",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+    "tabBar": {
+        "selectedColor": "#f94d2a",
+        "list": [
+            {
+                "pagePath": "pages/home/home",
+                "text": "首页",
+                "iconPath": "static/home.png",
+                "selectedIconPath": "static/home-active.png"
+            },
+            {
+                "pagePath": "pages/hot/hot",
+                "text": "热门",
+                "iconPath": "static/hot.png",
+                "selectedIconPath": "static/hot-active.png"
+            },
+            {
+                "pagePath": "pages/my/my",
+                "text": "我的",
+                "iconPath": "static/my.png",
+                "selectedIconPath": "static/my-active.png"
+            }
+        ]
+    },
+    "globalStyle": {
+        "navigationBarTextStyle": "black",
+        "navigationBarTitleText": "uni-app",
+        "navigationBarBackgroundColor": "#F8F8F8",
+        "backgroundColor": "#ffffff",
+        "app-plus": {
+            "background": "#ffffff"
+        }
+    },
+    "subPackages": [
+        {
+            "root": "subpkg",
+            "name": "sub-1",
+            "pages": [
+                {
+                    "path": "pages/search/search",
+                    "style": {
+                        "navigationBarTitleText": "文章搜索",
+                        "enablePullDownRefresh": false
+                    }
+                }
+            ]
+        }
+    ]
+}

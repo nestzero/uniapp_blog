@@ -1,0 +1,26 @@
+@charset "UTF-8";
+/* 水平间距 */
+/* 水平间距 */
+.search_list_title.data-v-b973ade8 {
+  font-weight: bold;
+  font-size: 14px;
+  color: #f94d2a;
+  padding: 0 12px 12px 12px;
+  margin: 0 -12px 12px -12px;
+  box-shadow: 2px 2px 5px 1px rgba(143, 143, 143, 0.1);
+}
+.search_list_item.data-v-b973ade8 {
+  display: flex;
+  align-items: center;
+  padding: 12px 0;
+}
+.search_list_item_title.data-v-b973ade8 {
+  color: #333;
+  font-size: 14px;
+  margin: 0 10px;
+}
+.search_list_item_icon.data-v-b973ade8 {
+  width: 14px;
+  height: 14px;
+}
+

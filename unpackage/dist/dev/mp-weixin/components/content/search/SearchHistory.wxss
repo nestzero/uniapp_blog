@@ -1,0 +1,48 @@
+@charset "UTF-8";
+/* 水平间距 */
+/* 水平间距 */
+.search_history {
+  padding: 12px 15px;
+}
+.search_history_box {
+  display: flex;
+  justify-content: space-between;
+}
+.search_history_box_title {
+  font-size: 12px;
+  color: #333;
+  padding: 4px 5px;
+}
+.search_history_main {
+  margin-top: 15px;
+}
+.search_history_main_item {
+  display: inline-block;
+  position: relative;
+  width: 50%;
+  box-sizing: border-box;
+  padding: 8px 10px;
+}
+.search_history_main_item:nth-child(odd):before {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  display: inline-block;
+  height: 10px;
+  content: '';
+  border-left: 1px solid #999;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+.txt {
+  color: #999;
+  font-size: 12px;
+  padding: 4px 5px;
+}
+.history_text {
+  display: inline-block;
+  width: 85%;
+  color: #333;
+  font-size: 14px;
+}
+

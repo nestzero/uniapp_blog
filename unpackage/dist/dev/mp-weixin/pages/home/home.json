@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "首页",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "home-search": "/components/common/MySearch",
+    "home-tabs": "/components/common/MyTabs",
+    "home-list": "/components/content/home/HomeList"
+  }
+}

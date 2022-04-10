@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "文章搜索",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "search": "/components/common/MySearch",
+    "search-list": "/components/content/search/SearchList",
+    "search-history": "/components/content/search/SearchHistory",
+    "search-result": "/components/content/search/SearchResult"
+  }
+}
